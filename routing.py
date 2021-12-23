@@ -11,7 +11,7 @@ def dojo():
 
 @app.route('/say/<string:name>')
 def say_hi(name):
-    return f'Hi {name.capitalizae()}!'
+    return f'Hi {name.capitalize()}!'
 
 @app.route('/repeat/<int:number>/<string:thing>')
 def repeat_thing(thing,number):
